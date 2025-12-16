@@ -50,13 +50,14 @@ The warehouse follows the **Medallion Architecture** pattern:
 ## Data Sources
 
 - **ERP System** (CSV exports)
-  - Orders
-  - Products
-  - Sales transactions
+  - Customer birthday/gender
+  - Customer countries
+  - Product categories
 
 - **CRM System** (CSV exports)
-  - Customers
-  - Customer attributes
+  - Customer informations
+  - Product informations
+  - Sales details
 
 ---
 
