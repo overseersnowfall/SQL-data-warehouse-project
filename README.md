@@ -92,9 +92,7 @@ sql-server-data-warehouse/
 ├── LEARNING_SUMMARY.md
 ├── LICENSE
 └── .gitignore
-
-
-
+```
 ---
 
 ## Acknowledgements
