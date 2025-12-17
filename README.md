@@ -27,7 +27,7 @@ This project covers:
 ---
 
 ## Data Architecture
-
+![Data Architecture](docs/data_architecture_diagram.png)
 The warehouse follows the **Medallion Architecture** pattern:
 
 - **Bronze Layer**
