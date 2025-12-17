@@ -80,7 +80,7 @@ sql-server-data-warehouse/
 ├── docs/                          # Architecture and data model documentation
 │   ├── data_architecture.drawio
 │   ├── data_models.drawio
-│   ├── data_flow.drawio           # Data flow diagram
+│   ├── data_flow_diagram.drawio   
 │   ├── data_catalog.md            # Catalog of datasets, including field descriptions and metadata
 │   └── naming-conventions.md      # Naming standards for tables and columns
 │
