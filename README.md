@@ -75,19 +75,19 @@ The warehouse follows the **Medallion Architecture** pattern:
 
 ```text
 sql-server-data-warehouse/
-├── datasets/                      # Raw ERP and CRM CSV files
+├── datasets/                             # Raw ERP and CRM CSV files
 │
-├── docs/                          # Architecture and data model documentation
-│   ├── data_architecture.drawio
+├── docs/                                 # Architecture and data model documentation
+│   ├── data_architecture_diagram.drawio
+|   ├── data_catalog.md                   # Catalog of datasets, including field descriptions and metadata
 │   ├── data_models.drawio
-│   ├── data_flow_diagram.drawio   
-│   ├── data_catalog.md            # Catalog of datasets, including field descriptions and metadata
-│   └── naming-conventions.md      # Naming standards for tables and columns
+│   ├── data_flow_diagram.drawio
+│   └── naming-conventions.md             # Naming standards for tables and columns
 │
 ├── scripts/
-│   ├── bronze/                    # Raw data ingestion scripts
-│   ├── silver/                    # Data cleansing and transformation scripts
-│   └── gold/                      # Fact and dimension table scripts
+│   ├── bronze/                           # Raw data ingestion scripts
+│   ├── silver/                           # Data cleansing and transformation scripts
+│   └── gold/                             # Fact and dimension table scripts
 │
 ├── README.md
 ├── LEARNING_SUMMARY.md
