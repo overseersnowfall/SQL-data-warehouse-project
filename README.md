@@ -80,8 +80,9 @@ sql-server-data-warehouse/
 ├── docs/                                 # Architecture and data model documentation
 │   ├── data_architecture_diagram.drawio
 |   ├── data_catalog.md                   # Catalog of datasets, including field descriptions and metadata
-│   ├── data_models.drawio
-│   ├── data_flow_diagram.drawio
+│   ├── data_flow_diagram.drawio          
+│   ├── data_integration_diagram.drawio   # show how tables are connected to each other
+│   ├── data_models_diagram.drawio        # show the star schema diagram for the gold layer
 │   └── naming-conventions.md             # Naming standards for tables and columns
 │
 ├── scripts/
@@ -105,7 +106,7 @@ designed by Data with Baraa. This repository represents my own hands-on
 implementation for learning and practice purposes.
 
 Original project and tutorial:
-- GitHub: https://github.com/DataWithBaraa/sql-data-warehouse-project
+- GitHub: https://github.com/DataWithBaraa
 - YouTube: https://www.youtube.com/@datawithbaraa
 
 ---
